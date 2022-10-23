@@ -1,0 +1,48 @@
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    font-size: 25px !important;
+  }
+.fa-plane-departure{
+    color: rgb(236, 220, 2);
+}
+.bg-mine, .btn-mine{
+    background: rgb(5, 119, 110);
+    color: white;
+}
+.btn-mine{
+  border-radius: 0 !important;
+}
+.text-mine{
+    color: rgb(5, 119, 110);
+}
+.btn-dark-mine{
+    border-radius: 0px !important;
+}
+.list-group{
+    border-radius: 0px;
+}
+.navbar{
+    z-index: 1 !important;
+}
+@media (max-width: 576px) {
+    .carousel-caption{
+        bottom: 20px;
+    }
+.carousel-caption h5{
+    font-size: 30px;
+}
+.carousel-caption p{
+    display: none;
+}
+}
+@media (max-width: 990px){
+    .carousel-control-next{
+        display: none;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+}
+
